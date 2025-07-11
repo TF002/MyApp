@@ -7,7 +7,7 @@
 
 import { NewAppScreen } from '@react-native/new-app-screen';
 import { StatusBar, StyleSheet, useColorScheme, View, Button, Image, Alert, ScrollView, Text } from 'react-native';
-import { useLaunchAuthApp} from 'react-native-one-tap-auth';
+import { useLaunchAuthApp } from 'openapi-chainless';
 import React from 'react';
 import axios, { AxiosInstance } from 'axios';
 
@@ -102,7 +102,7 @@ function App() {
   const [clientId, setClientId] = React.useState("");
 
         const { launch, AuthModal } = useLaunchAuthApp({
-        clientId: clientId+'1',
+        clientId: clientId,
         onDeepLink: (url, params) => {
             // 这里拿到被拉起时的完整链接和参数
             console.log('被拉起的链接:', url, params);
