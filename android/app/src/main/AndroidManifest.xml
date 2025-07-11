@@ -31,7 +31,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="rnapp" android:host="login-callback" />
+                <data android:scheme="com.rnapp.app" android:host="*" android:pathPattern=".*"/>
             </intent-filter>
 
         </activity>

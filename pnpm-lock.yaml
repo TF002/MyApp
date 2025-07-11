@@ -45,6 +45,9 @@ importers:
       '@react-native/eslint-config':
         specifier: 0.80.0
         version: 0.80.0(eslint@8.57.1)(jest@29.7.0(@types/node@24.0.8))(prettier@2.8.8)(typescript@5.0.4)
+      '@react-native/gradle-plugin':
+        specifier: ^0.80.1
+        version: 0.80.1
       '@react-native/metro-config':
         specifier: 0.80.0
         version: 0.80.0(@babel/core@7.27.7)
@@ -975,6 +978,10 @@ packages:
 
   '@react-native/gradle-plugin@0.80.0':
     resolution: {integrity: sha512-drmS68rabSMOuDD+YsAY2luNT8br82ycodSDORDqAg7yWQcieHMp4ZUOcdOi5iW+JCqobablT/b6qxcrBg+RaA==}
+    engines: {node: '>=18'}
+
+  '@react-native/gradle-plugin@0.80.1':
+    resolution: {integrity: sha512-6B7bWUk27ne/g/wCgFF4MZFi5iy6hWOcBffqETJoab6WURMyZ6nU+EAMn+Vjhl5ishhUvTVSrJ/1uqrxxYQO2Q==}
     engines: {node: '>=18'}
 
   '@react-native/js-polyfills@0.80.0':
@@ -4865,6 +4872,8 @@ snapshots:
   '@react-native/eslint-plugin@0.80.0': {}
 
   '@react-native/gradle-plugin@0.80.0': {}
+
+  '@react-native/gradle-plugin@0.80.1': {}
 
   '@react-native/js-polyfills@0.80.0': {}
 
