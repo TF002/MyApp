@@ -15,8 +15,8 @@ importers:
         specifier: ^1.10.0
         version: 1.10.0
       openapi-chainless:
-        specifier: ^1.0.12
-        version: 1.0.12(expo-linking@7.1.7(expo@53.0.19(@babel/core@7.27.7)(react-native@0.80.0(@babel/core@7.27.7)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native@0.80.0(@babel/core@7.27.7)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native@0.80.0(@babel/core@7.27.7)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))
+        specifier: ^1.0.13
+        version: 1.0.13(expo-linking@7.1.7(expo@53.0.19(@babel/core@7.27.7)(react-native@0.80.0(@babel/core@7.27.7)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native@0.80.0(@babel/core@7.27.7)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native@0.80.0(@babel/core@7.27.7)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -3316,8 +3316,8 @@ packages:
     resolution: {integrity: sha512-7x81NCL719oNbsq/3mh+hVrAWmFuEYUqrq/Iw3kUzH8ReypT9QQ0BLoJS7/G9k6N81XjW4qHWtjWwe/9eLy1EQ==}
     engines: {node: '>=12'}
 
-  openapi-chainless@1.0.12:
-    resolution: {integrity: sha512-D0UYg7ooV8Vm26YHclQHtTmidNhUZW9jZh8Qc1qi3IKhdpG21nmeJCZMIYNaYlxLGwxGySxn+vBTfIdFT4aCeA==}
+  openapi-chainless@1.0.13:
+    resolution: {integrity: sha512-LtCTNbTC267OVR8O3c3ilwmiAdomwCkUUG37Aj8ALxldQa8BOGsJIC1rgqBeNBif9KksD+QztN3b2FBDwPYK3w==}
     peerDependencies:
       expo-linking: '>=3.0.0'
       react-native: '>=0.64.0'
@@ -8684,7 +8684,7 @@ snapshots:
       is-docker: 2.2.1
       is-wsl: 2.2.0
 
-  openapi-chainless@1.0.12(expo-linking@7.1.7(expo@53.0.19(@babel/core@7.27.7)(react-native@0.80.0(@babel/core@7.27.7)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native@0.80.0(@babel/core@7.27.7)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native@0.80.0(@babel/core@7.27.7)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0)):
+  openapi-chainless@1.0.13(expo-linking@7.1.7(expo@53.0.19(@babel/core@7.27.7)(react-native@0.80.0(@babel/core@7.27.7)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native@0.80.0(@babel/core@7.27.7)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native@0.80.0(@babel/core@7.27.7)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0)):
     dependencies:
       axios: 1.10.0
       expo-linking: 7.1.7(expo@53.0.19(@babel/core@7.27.7)(react-native@0.80.0(@babel/core@7.27.7)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))(react@19.1.0))(react-native@0.80.0(@babel/core@7.27.7)(@react-native-community/cli@19.0.0(typescript@5.0.4))(@types/react@19.1.8)(react@19.1.0))(react@19.1.0)

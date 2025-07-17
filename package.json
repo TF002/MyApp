@@ -12,7 +12,7 @@
   "dependencies": {
     "@react-native/new-app-screen": "0.80.0",
     "axios": "^1.10.0",
-    "openapi-chainless": "^1.0.12",
+    "openapi-chainless": "^1.0.13",
     "react": "19.1.0",
     "react-native": "0.80.0"
   },
