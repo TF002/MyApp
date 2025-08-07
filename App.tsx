@@ -11,7 +11,7 @@ import { useLaunchAuthApp } from 'openapi-chainless';
 import React from 'react';
 import axios, { AxiosInstance } from 'axios';
 
-const BACKEND_URL = "http://59.36.210.102:8064";
+const BACKEND_URL = "https://open-api-testnet.chainlessdw20.com";
 const BACKDOOR_VERIFICATION_CODE = "000000";
 
 function randomHex(length: number): string {
